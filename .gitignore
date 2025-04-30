@@ -7,3 +7,8 @@ __pycache__
 *.pyc
 *.pyo
 *.pyd
+
+
+# Added by cargo
+
+/target

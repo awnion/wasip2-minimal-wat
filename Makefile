@@ -6,8 +6,11 @@ minimal.wit: minimal.wat
 minimal.wasm: minimal.wit
 	wasm-tools parse minimal.wat -o minimal.wasm
 
+.PHONY: build
+build: minimal.wasm
+
 .PHONY: run
-run: minimal.wasm
+run: build
 	uv run main.py
 
 .PHONY: clean
