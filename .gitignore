@@ -1,0 +1,9 @@
+.venv
+minimal.wasm
+minimal.wit
+
+.ruff_cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
